@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(terraform init:*)",
+      "Bash(where:*)",
+      "Bash(dir:*)",
+      "Bash(bash:*)",
+      "Bash(docker --version:*)",
+      "Bash(docker run:*)",
+      "Bash(gh:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Opsera Terraform multi-environment structure\n\n- Create dev, qa, prod, common environments\n- Add shared modules structure\n- Include simple Terraform configs for testing\n- Add Opsera pipeline configuration guide\n- All tests passing with Terraform\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git remote:*)"
+    ]
+  }
+}

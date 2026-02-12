@@ -1,0 +1,10 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# OS files
+.DS_Store
+desktop.ini
