@@ -13,7 +13,7 @@ output "environment" {
 }
 
 output "message" {
-  value = "Dev pipeline triggered successfully pr test"
+  value = "Dev pipeline triggered successfully pr test1"
 }
 
 output "module_output" {
